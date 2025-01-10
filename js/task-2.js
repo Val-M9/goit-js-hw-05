@@ -33,6 +33,8 @@ const allUsers = [
   },
 ];
 
+console.log('%c--Task-1--', 'color: yellow; font-size: 16px');
+
 console.log(getUsersWithFriend(allUsers, 'Briana Decker'));
 // [
 //   {

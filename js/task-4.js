@@ -42,6 +42,8 @@ const clients = [
   },
 ];
 
+console.log('%c--Task-4--', 'color: yellow; font-size: 16px');
+
 console.log(getTotalBalanceByGender(clients, 'male')); // 12053
 
 console.log(getTotalBalanceByGender(clients, 'female')); // 8863
